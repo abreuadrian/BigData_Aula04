@@ -1,25 +1,25 @@
-# #Estruturas de condição (if, elif, else)
+#Estruturas de condição (if, elif, else)
 
-# #Ex01.:
-# time = input('Digite seu time: ').lower()
+#Ex01.:
+time = input('Digite seu time: ').lower()
 
-# if time == 'flamengo':
-#     print('Você torce pro maior do RJ')
+if time == 'flamengo':
+    print('Você torce pro maior do RJ')
 
-# if time == 'nenhum':
-#     print('tsc...')
+if time == 'nenhum':
+    print('tsc...')
 
-# else: 
-#     print('Seu time nao é tão grande assim...')
+else: 
+    print('Seu time nao é tão grande assim...')
 
-# #Ex02.:
-# idade = int(input('Informe sua idade: '))
+#Ex02.:
+idade = int(input('Informe sua idade: '))
 
-# if idade < 18:
-#     print('Você é menor de idade. Não pode entrar.')
+if idade < 18:
+    print('Você é menor de idade. Não pode entrar.')
 
-# else:
-#     print('Você é maior de idade. Pode entrar.')
+else:
+    print('Você é maior de idade. Pode entrar.')
 
 #Ex03.:
 points = int(input('Informe sua pontuação: '))

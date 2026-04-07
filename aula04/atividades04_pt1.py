@@ -7,4 +7,7 @@ if price > 250:
     print('\nSua compra foi maior que R$250,00.')
     print(f'Você ganhou 16% de desconto. Total a pagar {new_price:.2f}.')
 else: 
-    print(f'Sua compra ficou em R${price}.')
+    print(f'\nSua compra ficou em R${price}.')
+
+#Atividade 02 ------------------------------------------------------------------------------------------------
+
