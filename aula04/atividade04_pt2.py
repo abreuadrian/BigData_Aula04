@@ -1,7 +1,9 @@
-#Atividade 01 ------------------------------------------------------------------------------------------------
+#Atividade 02 ------------------------------------------------------------------------------------------------
 price = float(input('Informe o preço da compra: '))
+print('[1] - À vista\n[2] - Parcelado')
+payment = int(input('Selecione a forma de pagamento: '))
 
-if price > 250:
+if price > 250 and payment == 1:
     desc = price * 0.16
     new_price = price - desc
     print('\nSua compra foi maior que R$250,00.')

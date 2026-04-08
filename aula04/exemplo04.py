@@ -32,3 +32,15 @@ elif points >= 25:
     print('Satisfatório.')
 else:
     print('Pratique mais')
+
+#-----------Operadores AND e OR-----------
+    
+#Ex04.:
+user = input('Login: ')
+password = input('Senha: ')
+
+if user == 'admin' and password == '1234':
+    print('Login efetuado com sucesso!')
+else:
+    print('Usuário ou senha incorreta.')
+
