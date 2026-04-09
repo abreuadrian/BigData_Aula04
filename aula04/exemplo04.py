@@ -72,6 +72,19 @@ if nota >= 5:
 
 if nota >= 2:
     print('D')
-    
+
 else:
     print('E')
+
+#Ex07.: ifs aninhados
+nota = float(input('Informe sua nota: '))
+freq = float(input('Informe a frequência: '))
+
+if nota >= 7:
+    if freq >= 75:
+        print('Você foi aprovado!')
+    else:
+        print('Reprovado por falta')
+else:
+    print('Reprovado por nota')
+    
