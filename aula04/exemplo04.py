@@ -44,3 +44,17 @@ if user == 'admin' and password == '1234':
 else:
     print('Usuário ou senha incorreta.')
 
+#Ex05.:
+
+nota = float(input('Informe sua nota: '))
+
+if nota >= 9:
+    print('A')
+elif nota >= 7:
+    print('B')
+elif nota >= 5:
+    print('C')
+elif nota >= 2:
+    print('D')
+else:
+    print('E')
