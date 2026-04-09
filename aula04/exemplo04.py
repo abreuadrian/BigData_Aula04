@@ -44,8 +44,7 @@ if user == 'admin' and password == '1234':
 else:
     print('Usuário ou senha incorreta.')
 
-#Ex05.:
-
+#Ex05.: if encadeado
 nota = float(input('Informe sua nota: '))
 
 if nota >= 9:
@@ -56,5 +55,23 @@ elif nota >= 5:
     print('C')
 elif nota >= 2:
     print('D')
+else:
+    print('E')
+
+#Ex06.: ifs não encadeados
+nota = float(input('Informe sua nota: '))
+
+if nota >= 9:
+    print('A')
+
+if nota >= 7:
+    print('B')
+
+if nota >= 5:
+    print('C')
+
+if nota >= 2:
+    print('D')
+    
 else:
     print('E')
